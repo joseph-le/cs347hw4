@@ -1,0 +1,245 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A20F0E6A-5CFD-D975-7DF5-0A13B8D09F3A" name="SIM_person">
+<createdBy>Joe</createdBy>
+<createdTime>2015-02-18 02:34:01 UTC</createdTime>
+<generatorID>DA2561B4-EFF3-F35C-E10E-D868E935A0A6</generatorID>
+<ownerDesignName>Homework 4 Logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="person_id" id="9AF1AB4B-7655-9A2F-95D1-74C783DAF27F">
+<createdBy>Joe</createdBy>
+<createdTime>2015-02-18 02:34:01 UTC</createdTime>
+<generatorID>8D174A75-4986-8ACD-1DFB-81DC8727A66D</generatorID>
+<ownerDesignName>Homework 4 Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="F1AEF2B9-A101-D110-646C-F1D2247E9364">
+<createdBy>Joe</createdBy>
+<createdTime>2015-02-18 02:34:01 UTC</createdTime>
+<generatorID>A5F47C9F-02F8-DD2A-C4E3-87F784A2E2AB</generatorID>
+<ownerDesignName>Homework 4 Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ssnum" id="804AAC6E-59F3-FDB1-512A-D41C43C9F345">
+<createdBy>Joe</createdBy>
+<createdTime>2015-02-18 02:34:01 UTC</createdTime>
+<generatorID>0DBF4FA0-F87B-47C1-0E06-45344D89F9F4</generatorID>
+<ownerDesignName>Homework 4 Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gender" id="9BE715E2-5D9F-F1DD-4853-BDD81045777B">
+<createdBy>Joe</createdBy>
+<createdTime>2015-02-18 02:34:01 UTC</createdTime>
+<generatorID>409E03B5-68D7-EA2A-7AB6-F436401FF871</generatorID>
+<ownerDesignName>Homework 4 Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="birth_date" id="855BF6AB-2DD4-6800-15A9-AA186B3C0807">
+<createdBy>Joe</createdBy>
+<createdTime>2015-02-18 02:34:01 UTC</createdTime>
+<generatorID>0E1FE587-3A34-1FC1-4759-61799DDF95C0</generatorID>
+<ownerDesignName>Homework 4 Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address" id="92D7FB90-6C33-B003-2C81-14A086BC01E0">
+<createdBy>Joe</createdBy>
+<createdTime>2015-02-18 02:34:01 UTC</createdTime>
+<generatorID>18B0CEF8-E96B-369E-1C80-DBF9E12972EB</generatorID>
+<ownerDesignName>Homework 4 Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="city" id="D7D169E9-DC51-98C2-AC79-DE391326F598">
+<createdBy>Joe</createdBy>
+<createdTime>2015-02-18 02:34:01 UTC</createdTime>
+<generatorID>8F11E2B8-C044-7EA6-6DE7-42476582CEDD</generatorID>
+<ownerDesignName>Homework 4 Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="state" id="AB15DC92-1869-255B-F34B-EB491506D241">
+<createdBy>Joe</createdBy>
+<createdTime>2015-02-18 02:34:01 UTC</createdTime>
+<generatorID>51DC3F2F-E5AB-4A65-96C3-D0B60053E50D</generatorID>
+<ownerDesignName>Homework 4 Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="zip" id="DC838771-BE0C-86BF-C411-49A812151EA6">
+<createdBy>Joe</createdBy>
+<createdTime>2015-02-18 02:34:01 UTC</createdTime>
+<generatorID>5388A4D6-3B33-AB9B-615B-17AC3AE6BEFD</generatorID>
+<ownerDesignName>Homework 4 Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="emp_id" id="2B39E260-59D4-CBAF-2485-E2083A501D10">
+<createdBy>Joe</createdBy>
+<createdTime>2015-02-18 02:34:01 UTC</createdTime>
+<generatorID>B8FD6A3D-6AC4-B30F-5DF6-FB01BE9F8E92</generatorID>
+<ownerDesignName>Homework 4 Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hire_date" id="289BD32A-9280-27C7-57DA-FD97288A37C5">
+<createdBy>Joe</createdBy>
+<createdTime>2015-02-18 02:34:01 UTC</createdTime>
+<generatorID>91CED4EA-5E51-862C-5E4A-9AF6FFF9D21A</generatorID>
+<ownerDesignName>Homework 4 Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salary" id="C531C0E7-A7D4-7111-ED62-AFE410574FF6">
+<createdBy>Joe</createdBy>
+<createdTime>2015-02-18 02:34:01 UTC</createdTime>
+<generatorID>687DED5C-54D3-7BFE-3341-961FD2ED2C4D</generatorID>
+<ownerDesignName>Homework 4 Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="C595E65F-9045-4C3B-3716-3A3918890AB8">
+<createdBy>Joe</createdBy>
+<createdTime>2015-02-18 02:34:01 UTC</createdTime>
+<generatorID>E44C8D37-6884-7B6B-BE8E-2CE07A97FEDF</generatorID>
+<ownerDesignName>Homework 4 Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="title" id="43B48EBF-2648-0D17-892F-88E0C0D9232A">
+<createdBy>Joe</createdBy>
+<createdTime>2015-02-18 02:34:01 UTC</createdTime>
+<generatorID>E8020FB2-B768-08AC-8774-446BFA193D6D</generatorID>
+<ownerDesignName>Homework 4 Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rating" id="77F73E20-EFC1-DD6D-C989-31DF739B7780">
+<createdBy>Joe</createdBy>
+<createdTime>2015-02-18 02:34:01 UTC</createdTime>
+<generatorID>505C9752-FEFD-2396-2952-BF1AEB4C161E</generatorID>
+<ownerDesignName>Homework 4 Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bonus" id="68FBC573-5381-81C4-7CCD-43538F959348">
+<createdBy>Joe</createdBy>
+<createdTime>2015-02-18 02:34:01 UTC</createdTime>
+<generatorID>1BD9F3FC-4558-34C2-9473-18AB0D8970B9</generatorID>
+<ownerDesignName>Homework 4 Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SIM_dept_dept_id" id="2690FAD7-5058-95BD-C521-EAE4C8F88514">
+<createdBy>Joe</createdBy>
+<createdTime>2015-02-18 02:34:01 UTC</createdTime>
+<generatorID>092A29CF-B3ED-7D68-AA81-FB750D7149FF</generatorID>
+<ownerDesignName>Homework 4 Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>C5143E4E-44FF-0D48-3EF7-68D271342A44</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6119FC40-60D9-1AB4-46B8-FE3A5EA5B8F1" referredColumn="C5143E4E-44FF-0D48-3EF7-68D271342A44"/>
+</associations>
+</Column>
+<Column name="type" id="0E40083C-F391-BFCA-2C3C-718D35420D43">
+<createdBy>Joe</createdBy>
+<createdTime>2015-02-18 02:34:01 UTC</createdTime>
+<generatorID>4C3862E5-06F4-97F8-2822-2F51B6F98849</generatorID>
+<ownerDesignName>Homework 4 Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="51FCCBAC-CF91-E07C-0DC3-9E4F5C8CAB3E" name="SIM_person_PK">
+<createdBy>Joe</createdBy>
+<createdTime>2015-02-18 02:34:01 UTC</createdTime>
+<generatorID>81A7AA67-C596-B9A2-0118-FA7409A2E39A</generatorID>
+<ownerDesignName>Homework 4 Logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9AF1AB4B-7655-9A2F-95D1-74C783DAF27F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7A127809-79E5-5E7C-C992-DD709790DF6E" name="SIM_person_SIM_dept_FK">
+<createdBy>Joe</createdBy>
+<createdTime>2015-02-18 02:34:01 UTC</createdTime>
+<generatorID>60714B4C-5FC9-C9E2-D9A1-25206A4EDB2F</generatorID>
+<ownerDesignName>Homework 4 Logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2690FAD7-5058-95BD-C521-EAE4C8F88514"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

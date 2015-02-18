@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="8086EF3E-62EF-7958-6256-E54DB1B02260" name="SIM_dept" seqName="seg_0"/>
+   <object objectType="Entity" objectID="DA2561B4-EFF3-F35C-E10E-D868E935A0A6" name="SIM_person" seqName="seg_0"/>
+   <object objectType="Entity" objectID="6E19361E-1F71-F680-3E25-4C7DF7F7DF3B" name="SIM_proj" seqName="seg_0"/>
+   <object objectType="Entity" objectID="FBE4A054-3303-6939-1959-5B950FFDDDE7" name="p2p" seqName="seg_0"/>
+   <object objectType="Relation" objectID="5DC64C8E-EA0E-DE66-7902-0403442C3EF5" name="dtop" seqName="seg_0"/>
+   <object objectType="Relation" objectID="AF6D014D-5872-19BD-4521-55131E3F1637" name="man" seqName="seg_0"/>
+   <object objectType="Relation" objectID="60714B4C-5FC9-C9E2-D9A1-25206A4EDB2F" name="ptoD" seqName="seg_0"/>
+   <object objectType="Relation" objectID="1F018E02-A879-725B-D7D0-155002448981" name="q" seqName="seg_0"/>
+   <object objectType="Relation" objectID="30BB0846-CF0D-1FE5-847D-D5F5DDA01E77" name="w" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

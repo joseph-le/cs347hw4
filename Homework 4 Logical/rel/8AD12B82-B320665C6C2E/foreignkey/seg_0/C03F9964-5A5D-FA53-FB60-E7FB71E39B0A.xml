@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C03F9964-5A5D-FA53-FB60-E7FB71E39B0A" name="p2p_SIM_proj_FK">
+<createdBy>Joe</createdBy>
+<createdTime>2015-02-18 02:34:01 UTC</createdTime>
+<generatorID>30BB0846-CF0D-1FE5-847D-D5F5DDA01E77</generatorID>
+<ownerDesignName>Homework 4 Logical</ownerDesignName>
+<containerWithKeyObject>66F54765-C24B-AB7C-FBB4-7F64382082A6</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>E2B0509C-CC56-593A-920C-E6F57C0AEB2D</localFKIndex>
+<keyObject>A0B27A64-4DEC-7C2E-5F22-41CF6B1D4725</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

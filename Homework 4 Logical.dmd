@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Homework 4 Logical" id="4F117E6E-6436-570F-8FFC-AD87415EC1A0" version="3.5">
+<createdBy>Joe</createdBy>
+<createdTime>2015-02-16 23:15:52 UTC</createdTime>
+<ownerDesignName>Homework 4 Logical</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>4F117E6E-6436-570F-8FFC-AD87415EC1A0</designId>
+</OSDM_Design>

@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6E19361E-1F71-F680-3E25-4C7DF7F7DF3B" name="SIM_proj">
+<createdBy>Joe</createdBy>
+<createdTime>2015-02-16 23:28:17 UTC</createdTime>
+<ownerDesignName>Homework 4 Logical</ownerDesignName>
+<engineerTo>
+<item key="FFD4D824-BCB9-61E6-478F-0CB308601122" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="proj_id" id="A49D70C1-5731-E1E4-D339-C4A1745409C9">
+<createdBy>Joe</createdBy>
+<createdTime>2015-02-16 23:28:26 UTC</createdTime>
+<ownerDesignName>Homework 4 Logical</ownerDesignName>
+<engineerTo>
+<item key="FFD4D824-BCB9-61E6-478F-0CB308601122" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="name" id="776244A3-3983-3781-DDEE-9CDF28AE2CC3">
+<createdBy>Joe</createdBy>
+<createdTime>2015-02-16 23:28:37 UTC</createdTime>
+<ownerDesignName>Homework 4 Logical</ownerDesignName>
+<engineerTo>
+<item key="FFD4D824-BCB9-61E6-478F-0CB308601122" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="dept_id" id="718C6BFC-4FEE-3E6E-CB9A-4FB13CED334F">
+<createdBy>Joe</createdBy>
+<createdTime>2015-02-16 23:36:07 UTC</createdTime>
+<generatorID>5DC64C8E-EA0E-DE66-7902-0403442C3EF5</generatorID>
+<ownerDesignName>Homework 4 Logical</ownerDesignName>
+<engineerTo>
+<item key="FFD4D824-BCB9-61E6-478F-0CB308601122" value="true"/>
+</engineerTo>
+<referedAttribute>DD19CD4B-DF66-B82B-C087-72C24AE4A76C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C4B3FDBE-2F83-3813-13D6-E8AC562C9B7A" name="{entity} PK">
+<createdBy>Joe</createdBy>
+<createdTime>2015-02-16 23:28:36 UTC</createdTime>
+<ownerDesignName>Homework 4 Logical</ownerDesignName>
+<engineerTo>
+<item key="FFD4D824-BCB9-61E6-478F-0CB308601122" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A49D70C1-5731-E1E4-D339-C4A1745409C9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

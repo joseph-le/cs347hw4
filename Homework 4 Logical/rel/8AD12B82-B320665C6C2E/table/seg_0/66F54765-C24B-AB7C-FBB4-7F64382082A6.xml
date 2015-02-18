@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="66F54765-C24B-AB7C-FBB4-7F64382082A6" name="p2p">
+<createdBy>Joe</createdBy>
+<createdTime>2015-02-18 02:34:01 UTC</createdTime>
+<generatorID>FBE4A054-3303-6939-1959-5B950FFDDDE7</generatorID>
+<ownerDesignName>Homework 4 Logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="p2p_id" id="02AB06B2-0E82-8D38-E834-7CFEF62EAE51">
+<createdBy>Joe</createdBy>
+<createdTime>2015-02-18 02:34:01 UTC</createdTime>
+<generatorID>504FEEBE-2E09-50A7-B5C4-979461103367</generatorID>
+<ownerDesignName>Homework 4 Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SIM_person_person_id" id="1881D0FC-E428-7225-1DFA-D98B724CBB4A">
+<createdBy>Joe</createdBy>
+<createdTime>2015-02-18 02:34:01 UTC</createdTime>
+<generatorID>6EA6F648-7B4F-6327-3DD9-1B2FFE720812</generatorID>
+<ownerDesignName>Homework 4 Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>9AF1AB4B-7655-9A2F-95D1-74C783DAF27F</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FD6F2830-43FD-6B2E-C708-A25BA7577011" referredColumn="9AF1AB4B-7655-9A2F-95D1-74C783DAF27F"/>
+</associations>
+</Column>
+<Column name="SIM_proj_proj_id" id="6464B302-62C8-4183-EF52-52FF0F8C50EE">
+<createdBy>Joe</createdBy>
+<createdTime>2015-02-18 02:34:01 UTC</createdTime>
+<generatorID>3E9EB442-8F5C-0C58-5517-6F58555761D3</generatorID>
+<ownerDesignName>Homework 4 Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>E6337A38-394D-9912-F5E0-60D12A39AC7F</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C03F9964-5A5D-FA53-FB60-E7FB71E39B0A" referredColumn="E6337A38-394D-9912-F5E0-60D12A39AC7F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BD18AEF3-1AFF-8EC8-7166-B17146403230" name="p2p_PK">
+<createdBy>Joe</createdBy>
+<createdTime>2015-02-18 02:34:01 UTC</createdTime>
+<generatorID>526FB6C8-B84D-61F3-D510-2F56E341B26F</generatorID>
+<ownerDesignName>Homework 4 Logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02AB06B2-0E82-8D38-E834-7CFEF62EAE51"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9F2C4095-48DF-A660-C15A-CB6C8674F7EB" name="p2p_SIM_person_FK">
+<createdBy>Joe</createdBy>
+<createdTime>2015-02-18 02:34:01 UTC</createdTime>
+<generatorID>1F018E02-A879-725B-D7D0-155002448981</generatorID>
+<ownerDesignName>Homework 4 Logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1881D0FC-E428-7225-1DFA-D98B724CBB4A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E2B0509C-CC56-593A-920C-E6F57C0AEB2D" name="p2p_SIM_proj_FK">
+<createdBy>Joe</createdBy>
+<createdTime>2015-02-18 02:34:01 UTC</createdTime>
+<generatorID>30BB0846-CF0D-1FE5-847D-D5F5DDA01E77</generatorID>
+<ownerDesignName>Homework 4 Logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6464B302-62C8-4183-EF52-52FF0F8C50EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

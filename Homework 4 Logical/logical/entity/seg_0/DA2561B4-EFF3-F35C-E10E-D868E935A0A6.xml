@@ -1,0 +1,257 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DA2561B4-EFF3-F35C-E10E-D868E935A0A6" name="SIM_person">
+<createdBy>Joe</createdBy>
+<createdTime>2015-02-16 23:16:26 UTC</createdTime>
+<ownerDesignName>Homework 4 Logical</ownerDesignName>
+<engineerTo>
+<item key="FFD4D824-BCB9-61E6-478F-0CB308601122" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="person_id" id="8D174A75-4986-8ACD-1DFB-81DC8727A66D">
+<createdBy>Joe</createdBy>
+<createdTime>2015-02-16 23:16:38 UTC</createdTime>
+<ownerDesignName>Homework 4 Logical</ownerDesignName>
+<engineerTo>
+<item key="FFD4D824-BCB9-61E6-478F-0CB308601122" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="name" id="A5F47C9F-02F8-DD2A-C4E3-87F784A2E2AB">
+<createdBy>Joe</createdBy>
+<createdTime>2015-02-16 23:17:00 UTC</createdTime>
+<ownerDesignName>Homework 4 Logical</ownerDesignName>
+<engineerTo>
+<item key="FFD4D824-BCB9-61E6-478F-0CB308601122" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="ssnum" id="0DBF4FA0-F87B-47C1-0E06-45344D89F9F4">
+<createdBy>Joe</createdBy>
+<createdTime>2015-02-16 23:17:15 UTC</createdTime>
+<ownerDesignName>Homework 4 Logical</ownerDesignName>
+<engineerTo>
+<item key="FFD4D824-BCB9-61E6-478F-0CB308601122" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="gender" id="409E03B5-68D7-EA2A-7AB6-F436401FF871">
+<createdBy>Joe</createdBy>
+<createdTime>2015-02-16 23:17:28 UTC</createdTime>
+<ownerDesignName>Homework 4 Logical</ownerDesignName>
+<engineerTo>
+<item key="FFD4D824-BCB9-61E6-478F-0CB308601122" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="birth_date" id="0E1FE587-3A34-1FC1-4759-61799DDF95C0">
+<createdBy>Joe</createdBy>
+<createdTime>2015-02-16 23:18:10 UTC</createdTime>
+<ownerDesignName>Homework 4 Logical</ownerDesignName>
+<engineerTo>
+<item key="FFD4D824-BCB9-61E6-478F-0CB308601122" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="address" id="18B0CEF8-E96B-369E-1C80-DBF9E12972EB">
+<createdBy>Joe</createdBy>
+<createdTime>2015-02-16 23:18:24 UTC</createdTime>
+<ownerDesignName>Homework 4 Logical</ownerDesignName>
+<engineerTo>
+<item key="FFD4D824-BCB9-61E6-478F-0CB308601122" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="city" id="8F11E2B8-C044-7EA6-6DE7-42476582CEDD">
+<createdBy>Joe</createdBy>
+<createdTime>2015-02-16 23:18:37 UTC</createdTime>
+<ownerDesignName>Homework 4 Logical</ownerDesignName>
+<engineerTo>
+<item key="FFD4D824-BCB9-61E6-478F-0CB308601122" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="state" id="51DC3F2F-E5AB-4A65-96C3-D0B60053E50D">
+<createdBy>Joe</createdBy>
+<createdTime>2015-02-16 23:18:46 UTC</createdTime>
+<ownerDesignName>Homework 4 Logical</ownerDesignName>
+<engineerTo>
+<item key="FFD4D824-BCB9-61E6-478F-0CB308601122" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Attribute>
+<Attribute name="zip" id="5388A4D6-3B33-AB9B-615B-17AC3AE6BEFD">
+<createdBy>Joe</createdBy>
+<createdTime>2015-02-16 23:18:54 UTC</createdTime>
+<ownerDesignName>Homework 4 Logical</ownerDesignName>
+<engineerTo>
+<item key="FFD4D824-BCB9-61E6-478F-0CB308601122" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="emp_id" id="B8FD6A3D-6AC4-B30F-5DF6-FB01BE9F8E92">
+<createdBy>Joe</createdBy>
+<createdTime>2015-02-17 00:02:37 UTC</createdTime>
+<ownerDesignName>Homework 4 Logical</ownerDesignName>
+<engineerTo>
+<item key="FFD4D824-BCB9-61E6-478F-0CB308601122" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="hire_date" id="91CED4EA-5E51-862C-5E4A-9AF6FFF9D21A">
+<createdBy>Joe</createdBy>
+<createdTime>2015-02-17 00:02:45 UTC</createdTime>
+<ownerDesignName>Homework 4 Logical</ownerDesignName>
+<engineerTo>
+<item key="FFD4D824-BCB9-61E6-478F-0CB308601122" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="salary" id="687DED5C-54D3-7BFE-3341-961FD2ED2C4D">
+<createdBy>Joe</createdBy>
+<createdTime>2015-02-17 00:02:54 UTC</createdTime>
+<ownerDesignName>Homework 4 Logical</ownerDesignName>
+<engineerTo>
+<item key="FFD4D824-BCB9-61E6-478F-0CB308601122" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="status" id="E44C8D37-6884-7B6B-BE8E-2CE07A97FEDF">
+<createdBy>Joe</createdBy>
+<createdTime>2015-02-17 00:03:04 UTC</createdTime>
+<ownerDesignName>Homework 4 Logical</ownerDesignName>
+<engineerTo>
+<item key="FFD4D824-BCB9-61E6-478F-0CB308601122" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="title" id="E8020FB2-B768-08AC-8774-446BFA193D6D">
+<createdBy>Joe</createdBy>
+<createdTime>2015-02-17 00:03:52 UTC</createdTime>
+<ownerDesignName>Homework 4 Logical</ownerDesignName>
+<engineerTo>
+<item key="FFD4D824-BCB9-61E6-478F-0CB308601122" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="rating" id="505C9752-FEFD-2396-2952-BF1AEB4C161E">
+<createdBy>Joe</createdBy>
+<createdTime>2015-02-17 00:04:36 UTC</createdTime>
+<ownerDesignName>Homework 4 Logical</ownerDesignName>
+<engineerTo>
+<item key="FFD4D824-BCB9-61E6-478F-0CB308601122" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="bonus" id="1BD9F3FC-4558-34C2-9473-18AB0D8970B9">
+<createdBy>Joe</createdBy>
+<createdTime>2015-02-17 00:04:59 UTC</createdTime>
+<ownerDesignName>Homework 4 Logical</ownerDesignName>
+<engineerTo>
+<item key="FFD4D824-BCB9-61E6-478F-0CB308601122" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="dept_id" id="092A29CF-B3ED-7D68-AA81-FB750D7149FF">
+<createdBy>Joe</createdBy>
+<createdTime>2015-02-17 00:07:58 UTC</createdTime>
+<generatorID>60714B4C-5FC9-C9E2-D9A1-25206A4EDB2F</generatorID>
+<ownerDesignName>Homework 4 Logical</ownerDesignName>
+<engineerTo>
+<item key="FFD4D824-BCB9-61E6-478F-0CB308601122" value="true"/>
+</engineerTo>
+<referedAttribute>DD19CD4B-DF66-B82B-C087-72C24AE4A76C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="type" id="4C3862E5-06F4-97F8-2822-2F51B6F98849">
+<createdBy>Joe</createdBy>
+<createdTime>2015-02-18 00:46:23 UTC</createdTime>
+<ownerDesignName>Homework 4 Logical</ownerDesignName>
+<engineerTo>
+<item key="FFD4D824-BCB9-61E6-478F-0CB308601122" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="81A7AA67-C596-B9A2-0118-FA7409A2E39A" name="{entity} PK">
+<createdBy>Joe</createdBy>
+<createdTime>2015-02-16 23:16:44 UTC</createdTime>
+<ownerDesignName>Homework 4 Logical</ownerDesignName>
+<engineerTo>
+<item key="FFD4D824-BCB9-61E6-478F-0CB308601122" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8D174A75-4986-8ACD-1DFB-81DC8727A66D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
